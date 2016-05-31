@@ -1,0 +1,36 @@
+{
+  "name": "riot-start-kit",
+  "version": "1.0.0",
+  "description": "Simple start kit with dev server and mocha tests.",
+  "main": "index.js",
+  "scripts": {
+    "start": "light-server -c .lightserverrc",
+    "test": "karma start"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },  
+  "keywords": [
+    "mocha",
+    "chai",
+    "karma",
+    "riot",
+    "startkit"
+  ],
+  "author": "vitogit",
+  "license": "MIT",
+  "devDependencies": {
+    "light-server": "^1.1.5",
+    "chai": "^3.5.0",
+    "karma": "^0.13.21",
+    "karma-chai": "^0.1.0",
+    "karma-mocha": "^0.2.2",
+    "karma-mocha-reporter": "^1.2.1",
+    "karma-phantomjs-launcher": "^1.0.0",
+    "karma-riot": "^1.0.1",
+    "mocha": "^2.4.5",
+    "phantomjs-prebuilt": "^2.1.4",
+    "riot": "^2.3.15"
+  }
+}
